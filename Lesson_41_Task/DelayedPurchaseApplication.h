@@ -1,13 +1,18 @@
 #pragma once
 #include "Application.h"
 
-class DelayedPurchaseApplication
+class DelayedPurchaseApplication : public Application
 {
 private:
 	double discountPrecentage;
+
 public:
-	DelayedPurchaseApplication(const customerName, const phoneNumber, double discountPrecentage)
-		: Application(customerName, phoneNumber), discountPrecentage(discountPrecentage) {};
+	DelayedPurchaseApplication(const string& customerName, const string& phoneNumber, double discountPrecentage);
+
+	void setDiscountPercentage(double discountPercentage);
+	double getDiscountPercentage() const;
+
+	double calcPrice() const override;
 
 };
 
