@@ -27,7 +27,6 @@ public:
 
 
 	virtual double calcPrice()const = 0;
-	virtual void showInfo()const = 0;
-
+		virtual void showInfo()const = 0;
 };
 
