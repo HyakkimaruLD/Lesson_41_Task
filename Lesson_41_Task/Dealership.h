@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 #include <vector>
+#include "Car.h"
+#include "Application.h"
 using namespace std;
 
 
@@ -9,7 +11,7 @@ class Dealership {
 private:
     string name;
     vector<Car> cars;
-    vector<Application> applications;
+    vector<Application*> applications;
 
 public:
     Dealership();
@@ -24,10 +26,11 @@ public:
     Car* findCar(const string& model);
 
 
-    void addApplication(const Application& application);
-    void removeApplication(const string& applicantName);
-    Application* findApplication(const string& applicantName);
-    void editApplication(const string& applicantName, const string& newStatus);
+    void addApplication(Application* application);
+    void removeApplication(const std::string& customerName);
+    Application* findApplication(const std::string& customerName);
+    void editApplication(const std::string& customerName, const std::string& newPhoneNumber);
+
 
 
 };
