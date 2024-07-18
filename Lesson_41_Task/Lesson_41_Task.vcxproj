@@ -136,6 +136,7 @@
     <ClInclude Include="Car.h" />
     <ClInclude Include="Dealership.h" />
     <ClInclude Include="Application.h" />
+    <ClInclude Include="StoreException.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
