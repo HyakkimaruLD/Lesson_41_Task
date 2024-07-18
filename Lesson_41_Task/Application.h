@@ -27,5 +27,7 @@ public:
 
 	virtual void showInfo()const = 0;
 	virtual double calcPrice()const = 0;
+
+	vector<Car> getCars() const;
 };
 
