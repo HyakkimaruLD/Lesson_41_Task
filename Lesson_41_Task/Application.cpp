@@ -8,13 +8,16 @@ Application::Application()
 
 Application::Application(string customerName, string phoneNumber)
 {
+
 	this->customerName = customerName;
 	this->phoneNumber = phoneNumber;
 }
 
 void Application::setCustomerName(string customerName)
 {
+
 	this->customerName = customerName;
+
 }
 
 void Application::setPhoneNumber(string phoneNumber)
