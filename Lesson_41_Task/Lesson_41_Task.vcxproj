@@ -129,13 +129,17 @@
   <ItemGroup>
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Dealership.cpp" />
+    <ClCompile Include="DelayedPurchaseApplication.cpp" />
     <ClCompile Include="Lesson_41_Task.cpp" />
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="StandPurchaseApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
     <ClInclude Include="Dealership.h" />
     <ClInclude Include="Application.h" />
+    <ClInclude Include="DelayedPurchaseApplication.h" />
+    <ClInclude Include="StandPurchaseApplication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
