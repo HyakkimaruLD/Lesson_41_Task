@@ -55,3 +55,8 @@ void Application::findCar(string name)
 		}
 	}
 }
+
+vector<Car> Application::getCars() const
+{
+	return cars;
+}
