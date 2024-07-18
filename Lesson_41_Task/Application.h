@@ -2,6 +2,8 @@
 #include <string>
 #include <iostream>
 #include <vector>
+
+#include "Car.h"
 using namespace std;
 
 class Application
@@ -24,7 +26,8 @@ public:
 	void removeCar(string name);
 	void findCar(string name);
 
-	virtual double
+
 		virtual void showInfo()const = 0;
+		virtual double calcPrice()const = 0;
 };
 

@@ -26,7 +26,7 @@ public:
     int getStockQuantity() const;
     bool getAvailability() const;
     
-
+    void showInfo()const;
 
 };
 

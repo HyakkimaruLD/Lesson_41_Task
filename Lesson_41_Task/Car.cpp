@@ -55,3 +55,12 @@ bool Car::getAvailability() const
 {
     return availability;
 }
+
+void Car::showInfo() const
+{
+    cout << "Brand: " << brand << endl;
+    cout << "Max passengers: " << maxPassengers << endl;
+    cout << "Price: " << price << endl;
+    cout << "Stock quantity: " << stockQuantity << endl;
+    cout << "Is available: " << (availability ? "yes" : "no") << endl << endl;
+}
