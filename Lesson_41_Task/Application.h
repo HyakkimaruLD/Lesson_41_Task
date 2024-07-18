@@ -2,6 +2,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
+
 #include "Car.h"
 using namespace std;
 
@@ -24,6 +25,7 @@ public:
 	void addCar(Car obj);
 	void removeCar(string name);
 	void findCar(string name);
+
 
 		virtual void showInfo()const = 0;
 		virtual double calcPrice()const = 0;
