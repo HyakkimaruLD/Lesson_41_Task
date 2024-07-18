@@ -25,7 +25,9 @@ public:
 	void removeCar(string name);
 	void findCar(string name);
 
+
 	virtual double calcPrice()const = 0;
 	virtual void showInfo()const = 0;
+
 };
 
