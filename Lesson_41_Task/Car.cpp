@@ -1,6 +1,6 @@
 #include "Car.h"
 
-Car::Car(const string& brand, int maxPassengers, double price, int stockQuantity, bool availability)
+Car::Car(const string& brand, int maxPassengers, double price, int stockQuantity, bool availability) 
     : brand(brand), maxPassengers(maxPassengers), price(price), stockQuantity(stockQuantity), availability(availability)
 {
 

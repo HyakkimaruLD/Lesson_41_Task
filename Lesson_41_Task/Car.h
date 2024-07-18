@@ -25,7 +25,8 @@ public:
     double getPrice() const;
     int getStockQuantity() const;
     bool getAvailability() const;
-
+    
     void showInfo()const;
 
 };
+
