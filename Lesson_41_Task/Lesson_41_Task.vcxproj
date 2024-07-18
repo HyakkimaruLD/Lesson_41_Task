@@ -130,7 +130,7 @@
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Dealership.cpp" />
     <ClCompile Include="DelayedPurchaseApplication.cpp" />
-    <ClCompile Include="Lesson_41_Task.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="StandPurchaseApplication.cpp" />
   </ItemGroup>
